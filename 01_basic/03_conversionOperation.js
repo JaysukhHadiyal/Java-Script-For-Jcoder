@@ -45,3 +45,31 @@ console.log('Two Number 20 - 10 Sub =>', 20 - 10);
 console.log('Two Number 5 * 3 Mul =>', 5 * 3);
 console.log('Two Number 15 / 3 Div =>', 15 / 3);
 
+let str1 = 'Jaysukh'
+let str2 = ' Hadiyal'
+let str3 = str1 + str2
+console.log('str3 Value =====>', str3);
+
+
+console.log("12" + 2)
+console.log(12 + "2")
+console.log("1" + 2 + 3)
+console.log(1 + 2 + "3")
+
+
+// Prefix and Postfix
+
+console.log('--------------------Prefix --------------')
+
+let x = 3
+const y = ++x
+
+console.log(`x: ${x} and y: ${y}`)
+
+console.log('--------------------Postfix --------------')
+
+let a = 3
+const b = a++
+
+console.log(`a: ${a} and b: ${b}`)
+
