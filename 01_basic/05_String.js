@@ -18,3 +18,14 @@ console.log('print the name in upper cash', name.toUpperCase())
 console.log('print the name lower cash', name.toLowerCase())
 
 console.log('replace the value is------', name.replace('J', 'h'));
+
+
+// at()
+const nameDetails = "My Name Is Jaysukh"
+
+let index = 5
+
+console.log(`the value of index 5 is ${index} and name details is ${nameDetails.at(index)}`);
+
+document.body.innerHTML = nameDetails.big();
+
