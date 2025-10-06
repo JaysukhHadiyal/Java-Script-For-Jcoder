@@ -92,7 +92,6 @@ new_name = 'Ashok'
 console.log(new_name)
 console.log(nameMy)
 
-
 // None Primitive Datatype: Used For Memory Store Heap :changes Main value update
 
 let empDetails = {'name': 'ram',
