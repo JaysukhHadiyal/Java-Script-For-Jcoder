@@ -10,3 +10,11 @@ console.log(`my name is ${name} and my repocount is ${repocount}`)
 const define = new String('Yash')
 
 console.log('the string is ----------', define)
+
+console.log('print the lenght of name-----', define.length)
+
+console.log('print the name in upper cash', name.toUpperCase())
+
+console.log('print the name lower cash', name.toLowerCase())
+
+console.log('replace the value is------', name.replace('J', 'h'));
