@@ -55,3 +55,13 @@ let pythonPosition = myScore.search('python')
 console.log(position)
 console.log(pythonPosition);
 
+
+// split
+
+let fruits = "apple,banana,orange,grape";
+let fruitList = fruits.split(",");
+console.log(fruitList);
+
+let word = "hello";
+let letters = word.split("");
+console.log(letters);
