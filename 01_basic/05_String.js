@@ -45,3 +45,13 @@ console.log(surname.substr(0, surname.length))
 console.log(`EN-US: ${surname.toLocaleLowerCase("en-US")}`);
 
 console.log(`TR: ${surname.toLocaleLowerCase("tr")}`);
+
+// search
+
+let myScore = 'Learning Javascript'
+let position = myScore.search('ip')
+let pythonPosition = myScore.search('python')
+
+console.log(position)
+console.log(pythonPosition);
+
