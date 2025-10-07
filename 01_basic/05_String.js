@@ -27,5 +27,21 @@ let index = 5
 
 console.log(`the value of index 5 is ${index} and name details is ${nameDetails.at(index)}`);
 
-document.body.innerHTML = nameDetails.big();
+// slice() the staring slicing
 
+let myName = "jaysukh"
+
+console.log(myName.slice(0,4))
+console.log(myName.slice(-7,-2))
+
+// substr()
+
+let surname = 'Hadiyal'
+
+console.log(surname.substr(0, surname.length))
+
+// toLocaleLowerCase
+
+console.log(`EN-US: ${surname.toLocaleLowerCase("en-US")}`);
+
+console.log(`TR: ${surname.toLocaleLowerCase("tr")}`);
