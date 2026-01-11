@@ -15,3 +15,6 @@ console.log(sur_name);
 // use case  - when we have to print multiple variable value in one line in table format 
 console.table({ pinCode, userName, isLoggedIn, sur_name });
 console.table({pinCode, userName});
+
+
+// js file run simple like: node 01_basic/01_variable.js
