@@ -3,7 +3,7 @@
 const name = 'Jaysukh'
 const repocount = 10
 
-console.log(`my name is ${name} and my repocount is ${repocount}`)
+console.log(`my name is ${name} and my repo count is ${repocount}`)
 
 // One Addtional Way to Define a Staring
 

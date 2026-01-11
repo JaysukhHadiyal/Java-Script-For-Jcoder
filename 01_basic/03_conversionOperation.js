@@ -57,19 +57,13 @@ console.log("1" + 2 + 3)
 console.log(1 + 2 + "3")
 
 
-// Prefix and Postfix
+// prefix and post fixed concept
 
-console.log('--------------------Prefix --------------')
+let a=10
+console.log(`the postfix vlaues is ${a--}`);
+console.log(a);
 
-let x = 3
-const y = ++x
+console.log(`the prefix vlaues is ${--a}`);
+console.log(a);
 
-console.log(`x: ${x} and y: ${y}`)
-
-console.log('--------------------Postfix --------------')
-
-let a = 3
-const b = a++
-
-console.log(`a: ${a} and b: ${b}`)
 
